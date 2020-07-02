@@ -1,23 +1,24 @@
 # GoStack2020_Nivel01_Nodejs
-## Arquivos criados em aula - Nível 01 - Back-end com Node.js
+## Archives created in class - Level 01 - Back-end with Node.js
 
-Pasta de arquivos com servidor back-end para estudos de JS com Node - Bootcamp 2020 da Rocketseat - GoStack
+Back-end server for Node with JS studies - Rocketseat`s Bootcamp 2020 - GoStack<br />
 
-## Para rodar:
-yarn init
-yarn dev
+## Usage:
+1. Run `npm install` or `yarn install`.<br />
+2. Run `yarn dev`.<br />
 
-## Para testar:
-Com o software [Insomnia](https://insomnia.rest/download/), criar os seguintes comando:
-- GET - http://localhost.33333/projects
-- POST - http://localhost.33333/projects - JSON com o seguinte XML:
-{
-	"title": "Nome do seu projeto de testes 1",
-	"owner": "Seu nome para testes"
-}
-- PUT - http://localhost.33333/projects/"copiar aqui o ID de um projeto criado ver com o GET)" - JSON com o seguinte XML:
-{
-	"title": "Nome do seu projeto de testes corrigido",
-	"owner": "Seu nome para testes / correção"
-}
-- DEL - http://localhost.33333/projects/"copiar aqui o ID de um projeto criado (ver com o GET)"
+
+## To test:
+With [Insomnia](https://insomnia.rest/download/) software configure as follow:<br />
+- GET - http://localhost.33333/projects<br />
+- POST - http://localhost.33333/projects - JSON whith XML:<br />
+{<br />
+	"title": "Name for project 1",<br />
+	"owner": "Test name"<br />
+}<br />
+- PUT - http://localhost.33333/projects/"Paste project ID as seen in GET query" - JSON with XML:<br />
+{<br />
+	"title": "Name for project 1 - new",<br />
+	"owner": "New name for tests"<br />
+}<br />
+- DEL - http://localhost.33333/projects/"Paste project ID as seen in GET query"<br />
